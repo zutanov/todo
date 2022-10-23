@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <section class="todo">
+        <div class="container">
+            <div class="todo__form">
+                <label for="todo__input"></label>
+                <input type="text" name="" id="todo__input" class="todo__title" placeholder="Введите описание">
+                <select class="todo__priority" name="" id="">
+                    <option value="1">Низкий</option>
+                    <option value="2">Средний</option>
+                    <option value="3">Высокий</option>
+                </select>
+                <div class="todo__selection">
+                    <label for="me">Me</label>
+                    <input checked type="radio" name="person" class="todo__me" id="me">
+                    <label for="others">Others</label>
+                    <input type="radio" name="person" class="todo__others" id="others">
+                </div>
+                <button class="todo__btn">Create task</button>
+            </div>
+            <div class="todos">
+          <!-- <div class="task">
+            <div class="task__info">
+                <h2 class="task__desc">Task 2</h2>
+                <p class="task__person">me</p>
+                <p class="task__priority">High</p>
+            </div>
+        <button class="task__delete">Delete</button>
+    </div> -->
+            </div>
+        </div>
+    </section>
+    <script src="./script/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: rgba(231, 235, 228, 0.679);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 900px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.todo {
+    padding: 90px 0;
+}
+.todo__form {
+    padding: 30px 20px;
+    background: rgba(250, 130, 50, 0.4);
+    display: flex;
+    flex-direction: column;
+}
+
+.todo__title {
+  
+    height: 20px;
+}
+
+.todo__priority {
+   
+    height: 20px;
+    margin: 20px 0;
+}
+
+.todo__btn {
+    margin-top: 20px;
+    width: 100px;
+    height: 20px;
+    color: #fff;
+    background: rgb(54, 109, 54);
+    border-radius: 3px;
+    border: none;
+    margin: 0 auto;
+}
+
+
+.task {
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background: #fcf5ec;
+    font-size: 21px;
+}
+.task__person {
+    margin: 10px 0;
+    padding: 5px 10px;
+    color: #fff;
+    background: #3eb2ac;
+}
+.task__priority {
+    background: red;
+    padding: 10px;
+    color: #fff;
+}
+.task__delete {
+    height: 40px;
+    width: 80px;
+    background: orange;
+    color: #fff;
+    font-size: inherit;
+    border: none;
+    border-radius: 5px;   
+}
